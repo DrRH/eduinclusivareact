@@ -11,7 +11,7 @@ function App() {
         titulo="InventarioApp"
       />
       <Boton
-        url="http://bhagamapps.com/biblioTaparto"
+        url="http://bhagamapps.com/biblioApp"
         img="http://bhagamapps.com/appsArt/biblioAppOnPasiva.png"
         titulo="BiblioApp"
       />
@@ -24,6 +24,11 @@ function App() {
         url="http://bhagamapps.com/SUVICT"
         img="http://bhagamapps.com/appsArt/cteApp.jpg"
         titulo="SUVICT"
+      />
+      <Boton
+        url="http://bhagamapps.com/eduInclusiva"
+        img="http://bhagamapps.com/appsArt/DUA.png"
+        titulo="EduInclusiva"
       />
   </div>
   
