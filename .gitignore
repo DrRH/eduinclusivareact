@@ -10,6 +10,7 @@
 
 # production
 /build
+/eduinclusivareact
 
 # misc
 .DS_Store
