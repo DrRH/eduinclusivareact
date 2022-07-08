@@ -1,15 +1,14 @@
 import React from "react";
+import "../css/boton.css";
 
-export default Boton(img, titulo){
+export default function Boton({url, img, titulo}){
 
   return(
-    <div>
-      <div>
-        
+      <div id="boton">
+        <a href={url}>
+          <img  src= {img} alt={titulo}/>
+          <span>{titulo}</span>
+        </a>
       </div>
-      <div>
-        
-      </div>
-    </div>
   )
 }

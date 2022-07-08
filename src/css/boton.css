@@ -1,0 +1,64 @@
+:root {
+	--imagenFondo:url('http://bhagamapps.com/appsArt/fondo.jpg');
+	--luzOn:#0076fc;
+	--OnActivo: #abe2f8;
+	--OnPasivo: #80c0fc;	
+	--Off: #4e79fc;
+	--RojoOnActivo:#fd0101;
+	--RojoOnPasivo:#d80202;
+	--RojoOff:#960404;  
+	--fondo01:rgba(117, 208, 250, 0.1);
+	--fondo03:rgba(117, 208, 250, 0.3);
+	--fondo05:rgba(117, 208, 250, 0.5); 
+	--fondo07:rgba(117, 208, 250, 0.7);
+	--fondo09:rgba(117, 208, 250,0.9);
+	--fondo10:rgba(117, 208, 250,1);
+	--fondoOff01:rgba(15, 25, 44, 0.1);
+	--fondoOff03:rgba(15, 25, 44, 0.3);
+	--fondoOff05:rgba(15, 25, 44, 0.5); 
+	--fondoOff07:rgba(15, 25, 44, 0.7);
+	--fondoOff09:rgba(15, 25, 44,0.9);
+	--fondoOff10:rgba(15, 25, 44,1);
+	color:#fc3504;
+	color:#ff6105;
+	color:#ff8a05;
+	color:#e6ff07;
+	color:#8bff07;
+	color:#02aa64;
+  }
+#boton {
+	width: 150px;
+	text-align: center;
+	margin: 50px;
+	border: 1px solid var(--OnPasivo);
+	border-radius: 15px 0;
+	background: var(--fondo03);
+}
+#boton:hover {
+	border: 1px solid var(--OnActivo);
+	border-radius: 15px 0;
+	background: var(--fondo05);
+	box-shadow: 1px 1px 5px var(--OnActivo);
+}
+#boton img {
+	height: 120px;
+	width: 120px;
+	margin: 0 auto;
+	border-radius: 15px;
+	border: 1px solid var(--OnActivo);
+	box-shadow: 1px 1px 5px var(--OnActivo);
+}
+#boton p {
+	font-weight: normal;
+	line-height: auto;
+	font-size: 14px;
+	color: #8895bf;
+	color: var(--OnPasivo);
+}
+#boton:hover p{
+	color: var(--OnActivo);
+	text-shadow: 0px 0px 10px var(--OnActivo);
+}
+#boton a {
+	text-decoration: none;
+}

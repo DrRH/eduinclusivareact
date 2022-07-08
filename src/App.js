@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import Boton from './componentes/boton';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      
+  <div id="appsContenedor">
+      <Boton
+        url="http://bhagamapps.com/inventarioApp"
+        img="http://bhagamapps.com/appsArt/inventApp.png"
+        titulo="InventarioApp"
+      />
+      <Boton
+        url="http://bhagamapps.com/biblioTaparto"
+        img="http://bhagamapps.com/appsArt/biblioAppOnPasiva.png"
+        titulo="BiblioApp"
+      />
+      <Boton
+        url="http://bhagamapps.com/tabletsApp"
+        img="http://bhagamapps.com/appsArt/tablet.jpg"
+        titulo="Préstamo de Tabletas"
+      />
+      <Boton
+        url="http://bhagamapps.com/SUVICT"
+        img="http://bhagamapps.com/appsArt/cteApp.jpg"
+        titulo="SUVICT"
+      />
+  </div>
+  
+);
 }
 
 export default App;

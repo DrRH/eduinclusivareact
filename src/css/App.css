@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+
+}
+
+
+#appsContenedor {
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+}
