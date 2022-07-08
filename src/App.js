@@ -26,7 +26,7 @@ function App() {
         titulo="SUVICT"
       />
       <Boton
-        url="http://bhagamapps.com/eduInclusiva"
+        url="http://bhagamapps.com/eduinclusiva"
         img="http://bhagamapps.com/appsArt/DUA.png"
         titulo="EduInclusiva"
       />
